@@ -1,0 +1,60 @@
+/*==============================================================================
+===================================CARROUSSEL===================================
+==============================================================================*/
+#carrousel{
+    position:relative;
+    height:200px;
+    width:700px;
+    margin:auto;
+}
+#carrousel ul li{
+    list-style: none;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#carrousel img {
+  height:200px;
+  width:700px;
+}
+.prev{
+  background-color: grey;
+  color: white;
+  position: absolute;
+  left: 3px;
+  top : 100px;
+  z-index: 3;
+}
+.prev:hover{
+  cursor: pointer;
+}
+.next{
+  background-color: grey;
+  color: white;
+  position: absolute;
+  right: 3px;
+  top : 100px;
+  z-index: 3;
+}
+.next:hover{
+  cursor: pointer;
+}
+/*==============================================================================
+==================================TABLE=========================================
+==============================================================================*/
+thead{
+  background-color: black;
+  color: white;
+}
+thead tr{
+  border: 2px solid white;
+}
+thead td{
+  border: 1px solid white;
+}
+tbody tr:nth-child(odd){
+  background-color: rgb(89, 89, 89);
+}
+tbody tr:nth-child(even){
+  background-color: rgb(45, 45, 45);
+}
