@@ -9,6 +9,6 @@
     <title>Projet Kilian, Hermelen, Jessy, Benoît</title>
   </head>
   <body>
-    <header>
-      <h1 class="titreProjet">Projet des zigotos Kilian, Hermelen, Jessy, Benoît</h1>
+    <header class="titreProjet">
+      <h1>Projet des zigotos Kilian, Hermelen, Jessy, Benoît</h1>
     </header>

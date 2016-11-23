@@ -3,3 +3,14 @@ body {
   background-image: url('../img/urss.jpg');
   background-size: cover;
 }
+
+/*style header*/
+.titreProjet {
+  text-align: center;
+  color: azure;
+}
+ /*style footer*/
+ .footerPage {
+   text-align: center;
+   color: azure;
+ }
